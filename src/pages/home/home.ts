@@ -11,4 +11,8 @@ export class HomePage {
 
   }
 
+  refresh(){
+   window['location'].reload();
+ }
+
 }
